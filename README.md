@@ -25,7 +25,11 @@ The user is meant to verbally respond as they're practicing but they aren't forc
 -----------  goals ------------
 
 [] Use random system to generate and output text with timer
+
 [] Setup GUI to allow a user to add stuff
+
 [] Universal formatting to allow custom wordlists and sentences
+
 [] Set up app version so people can practice on phone
+
 [] App version feature allows the user to make a commitment to actually speaking aloud with microphone incase they feel they might cheat
