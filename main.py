@@ -10,9 +10,9 @@ words = {
 #adj = words["adj"]
 #topics = words["topics"]
 
-def main():
-    speak = "I think" + randchoice(adj) + " is " + randchoice(topics)
-    print(speak)
+
+speak = "I think", random.choice(words["topics"]), " is ", random.choice(words["adj"])
+print(speak)
     
 def randchoice(topic) : 
     random.choice(list(words.topic()))
