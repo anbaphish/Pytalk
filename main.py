@@ -11,7 +11,7 @@ words = {
 #topics = words["topics"]
 
 
-speak = (f"I think",random.choice(words["topics"]),'is',random.choice(words["adj"]))
+speak = (f"I think " + random.choice(words["topics"]) + ' is ' + random.choice(words["adj"]))
 print(speak)
     
 
