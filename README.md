@@ -28,7 +28,7 @@ The user is meant to verbally respond as they're practicing but they aren't forc
 
 [] Setup GUI to allow a user to add stuff
 
-[] Universal formatting to allow custom wordlists and sentences
+[X] Easy to add formatting for wordlists
 
 [] Set up app version so people can practice on phone
 
