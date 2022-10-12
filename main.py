@@ -1,19 +1,13 @@
-#basic proof of concept
+#Proof of con JSON capable
 import random
-words = { 
-    "adj": ["good","sad","boring","loud","fun"],
-    "topics": ["school","math","sciene","work","exercise","music"]
-}
+import json
 
+with open('sample.json') as json_file:
+   data = json.load(json_file) #loads JSON, use data as rep
 
-
-#adj = words["adj"]
-#topics = words["topics"]
-
-
-speak = (f"I think " + random.choice(words["topics"]) + ' is ' + random.choice(words["adj"]))
+speak = (f"I think " + random.choice(data["topics"]) + ' is ' + random.choice(data["adj"]) )   
 print(speak)
-    
 
-  
-  #needs more work
+#with open("sample.json", "w") as outfile:
+#    json.dump(words, outfile)
+  #opening a dictionary and dumping is best for JSON in format
